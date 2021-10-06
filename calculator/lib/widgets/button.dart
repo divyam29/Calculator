@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class roundButton extends StatelessWidget {
@@ -21,17 +22,21 @@ final fontWeight;
     return GestureDetector(
       onTap: onTap,
       child: SizedBox(
-        height: 80,
+        height: 75,
         width: 75,
-        child: FloatingActionButton(
+        child: CupertinoButton(
           onPressed: () {  },
-          backgroundColor: color,
-          child: Text(
-            text,
-            style: TextStyle(
-              fontSize: fontSize,
-              color: textColor,
-              fontWeight: fontWeight
+          padding: EdgeInsets.all(5),
+          color: color,
+          borderRadius: BorderRadius.circular(100),
+          child: Container(
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: fontSize,
+                color: textColor,
+                fontWeight: fontWeight
+              ),
             ),
           ),
         ),

@@ -67,7 +67,7 @@ class _MainPageState extends State<MainPage> {
               ],
             ),
             const SizedBox(
-              width: 20,
+              height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -105,7 +105,7 @@ class _MainPageState extends State<MainPage> {
               ],
             ),
             const SizedBox(
-              width: 20,
+              height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -143,7 +143,7 @@ class _MainPageState extends State<MainPage> {
               ],
             ),
             const SizedBox(
-              width: 20,
+              height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -181,7 +181,7 @@ class _MainPageState extends State<MainPage> {
               ],
             ),
             const SizedBox(
-              width: 20,
+              height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
