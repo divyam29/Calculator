@@ -20,7 +20,7 @@ class _MainPageState extends State<MainPage> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             const Divider(
-              color: Colors.white24,
+              color: Colors.white12,
               thickness: 3,
             ),
             const SizedBox(
@@ -31,7 +31,7 @@ class _MainPageState extends State<MainPage> {
               children: [
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "Ⅽ",
                   textColor: Colors.red,
                 ),
@@ -40,7 +40,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "（）",
                   fontSize: 32,
                   textColor: Colors.lightGreen,
@@ -50,7 +50,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "%",
                   textColor: Colors.lightGreen,
                 ),
@@ -59,7 +59,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "÷",
                   fontSize: 45,
                   textColor: Colors.lightGreen,
@@ -74,14 +74,14 @@ class _MainPageState extends State<MainPage> {
               children: [
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "7",
                 ),
                 const SizedBox(
                   width: 20,
                 ),roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "8",
                 ),
                 const SizedBox(
@@ -89,7 +89,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "9",
                 ),
                 const SizedBox(
@@ -97,7 +97,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "×",
                   fontSize: 45,
                   textColor: Colors.lightGreen,
@@ -112,14 +112,14 @@ class _MainPageState extends State<MainPage> {
               children: [
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "4",
                 ),
                 const SizedBox(
                   width: 20,
                 ),roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "5",
                 ),
                 const SizedBox(
@@ -127,7 +127,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "6",
                 ),
                 const SizedBox(
@@ -135,7 +135,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "–",
                   fontSize: 40,
                   textColor: Colors.lightGreen,
@@ -150,14 +150,14 @@ class _MainPageState extends State<MainPage> {
               children: [
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "1",
                 ),
                 const SizedBox(
                   width: 20,
                 ),roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "2",
                 ),
                 const SizedBox(
@@ -165,7 +165,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "3",
                 ),
                 const SizedBox(
@@ -173,7 +173,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "+",
                   fontSize: 45,
                   textColor: Colors.lightGreen,
@@ -188,14 +188,14 @@ class _MainPageState extends State<MainPage> {
               children: [
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "+/–",
                 ),
                 const SizedBox(
                   width: 20,
                 ),roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: "0",
                 ),
                 const SizedBox(
@@ -203,7 +203,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 roundButton(
                   onTap: () {},
-                  color: Colors.white24,
+                  color: Colors.white12,
                   text: ".",
                 ),
                 const SizedBox(

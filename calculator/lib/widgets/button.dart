@@ -24,19 +24,24 @@ final fontWeight;
       child: SizedBox(
         height: 75,
         width: 75,
-        child: CupertinoButton(
+        child: RaisedButton(
           onPressed: () {  },
+          elevation: 50,
           padding: EdgeInsets.all(5),
           color: color,
-          borderRadius: BorderRadius.circular(100),
-          child: Container(
-            child: Text(
-              text,
-              style: TextStyle(
-                fontSize: fontSize,
-                color: textColor,
-                fontWeight: fontWeight
-              ),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(100),
+            side: BorderSide(
+              color: Colors.grey.shade800,
+              width: 3
+            )
+          ),
+          child: Text(
+            text,
+            style: TextStyle(
+              fontSize: fontSize,
+              color: textColor,
+              fontWeight: fontWeight
             ),
           ),
         ),
